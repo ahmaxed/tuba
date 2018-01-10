@@ -1,28 +1,68 @@
-.App {
-  text-align: center;
+
+.bio{
+  background-color: white;
+}
+.projects{
+  background-color: #e6e6e6;
+}
+.research{
+  background-color: #cccccc;
+}
+.publication{
+  background-color: white;
+  font-family:monospace;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+
+.awards{
+  background-color: #b3b3b3;
+}
+.media{
+  background-color: #999999;
+}
+.more{
+  background-color: white;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.card-block{
+  padding: .5em .5em .5em;
 }
 
-.App-title {
-  font-size: 1.5em;
+
+.card{
+  border: none;
+  border-radius: 0;
 }
 
-.App-intro {
-  font-size: large;
+.Stack{
+  margin-top: 20px !important;
+}
+img{
+  border-radius: 0!important;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+h1.card-title{
+  font-size: 4.5em;
+  font-weight:bold;
+}
+
+h2.card-title{
+  margin: 0;
+}
+
+h4.card-title{
+  margin: 0;
+}
+.btn-primary {
+  background-color: black;
+  border:none;
+  color: #FFF;
+  border-radius: 30px;
+}
+.btn-primary:hover{
+  background-color: #40E0D0;
+  color: #FFF;
+}
+.more{
+  background:rgba(0,0,0,0);
 }
