@@ -32,20 +32,20 @@ class App extends Component {
           </div>
           <div className="card projects">
             <div className="card-block">
-              <h5 className="card-title">Special title treatment</h5>
-              <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <h5 className="card-title">H2020 - MARIE SKLODOWSKA CURIE INDIVIDUAL FELLOWSHIP - RI Grant</h5>
+              <p className="card-text">Principal Investigator, microwave Diagnosis Of Breast Cancer With Open Ended Contact Probe - MIDxPRO, Budget: 157,845 EUR, 2017-2019.</p>
             </div>
           </div>
           <div className="card projects">
             <div className="card-block">
-              <h5 className="card-title">Special title treatment</h5>
-              <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <h5 className="card-title">TUBITAK 1003</h5>
+              <p className="card-text">Researcher, Meme Kanserinin Tanısı Için Magnetik-nanoparçacık Temelli Mikrodalga Görüntüleme Teknolojisinin Geliştirilmesi,  Budget: 1,500,000 TL, 2017-2019.</p>
             </div>
           </div>
           <div className="card projects">
             <div className="card-block">
-              <h5 className="card-title">Special title treatment</h5>
-              <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <h5 className="card-title">KALKINMA BAKANLIĞI</h5>
+              <p className="card-text">Researcher, Ambulanslar Için Beyin Kanaması Erken Teşhis Ve Tespit Sistemi:kask, Budget: 875,312 TL, 2016 - 2017</p>
             </div>
           </div>
 
@@ -56,20 +56,17 @@ class App extends Component {
             </div>
           </div>
           <div className="card research">
-            <img className="card-img-top" src="http://via.placeholder.com/300x100" alt="Card image cap"/>
             <div className="card-block">
               <h4 className="card-title">Dielectric Spectroscopy</h4>
             </div>
           </div>
           <div className="card research">
-            <img className="card-img-top" src="http://via.placeholder.com/300x100" alt="Card image cap"/>
             <div className="card-block">
               <h4 className="card-title">Design and Testing of
 Microwave Wearable Sensors</h4>
             </div>
           </div>
           <div className="card research">
-            <img className="card-img-top" src="http://via.placeholder.com/300x100" alt="Card image cap"/>
             <div className="card-block">
               <h4 className="card-title">Phantom Characterization for
 bio-electromagnetics
@@ -77,21 +74,18 @@ applications</h4>
             </div>
           </div>
           <div className="card research">
-            <img className="card-img-top" src="http://via.placeholder.com/300x100" alt="Card image cap"/>
             <div className="card-block">
               <h4 className="card-title">Design and Testing of
 On-body Antennas</h4>
             </div>
           </div>
           <div className="card research">
-            <img className="card-img-top" src="http://via.placeholder.com/300x100" alt="Card image cap"/>
             <div className="card-block">
               <h4 className="card-title">Design and Testing of
 Implantable Antennas</h4>
             </div>
           </div>
           <div className="card research">
-            <img className="card-img-top" src="http://via.placeholder.com/300x100" alt="Card image cap"/>
             <div className="card-block">
               <h4 className="card-title .no_margin">Future Work: AI implemented
 sensing platforms</h4>
@@ -125,7 +119,7 @@ sensing platforms</h4>
           </div>
           <div className="card publication">
             <div className="card-block">
-              <h6 className="card-text">T Yilmaz, MA Kılıç, M Erdoğan, M Çayören, D Tunaoğlu, İ Kurtoğlu, ... Machine learning aided diagnosis of hepatic malignancies through in vivo dielectric measurements with microwaves</h6>              
+              <h6 className="card-text">T Yilmaz, MA Kılıç, M Erdoğan, M Çayören, D Tunaoğlu, İ Kurtoğlu, ... Machine learning aided diagnosis of hepatic malignancies through in vivo dielectric measurements with microwaves</h6>
             </div>
           </div>
           <div className="card more">
@@ -157,18 +151,11 @@ sensing platforms</h4>
           <div className="card media">
             <div className="card-block">
                 <h2 className="card-title">MEDIA</h2>
-            </div>
-          </div>
-          <div className="card media">
-            <div className="card-block">
-              <h5 className="card-title">Special title treatment</h5>
-              <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-          <div className="card media">
-            <div className="card-block">
-              <h5 className="card-title">Special title treatment</h5>
-              <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <div className="card-block">
+                    <a href="http://www.itu.edu.tr/haberler/2017/02/22/uc-projemiz-marie-sklodowska-curie-bireysel-arastirma-burslari-2016-destegi-alacak" className="btn btn-primary">ITU Haberler</a>
+                      <a href="https://www.ituvakif.org.tr/dergi/sayi_76.pdf" className="btn btn-primary">ITU Vakif</a>
+
+                  </div>
             </div>
           </div>
           {/*MORE*/}
