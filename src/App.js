@@ -12,7 +12,7 @@ class App extends Component {
           gutterWidth={20}
           >
           <div className="card">
-            <img className="card-img-top" src="./assets/tuba.jpg" alt="Card image cap"/>
+            <img className="card-img-top" src="../assets/tuba.jpg" alt="Card image cap"/>
           </div>
           {/*BIO*/}
           <div className="card bio" >
