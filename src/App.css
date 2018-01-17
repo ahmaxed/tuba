@@ -1,33 +1,36 @@
 
-.bio{
-  background-color: white;
+.App{ margin-bottom: 50px;}
+.card{
+  box-shadow: 0 3px 13px 1px rgba(0,0,0,0.12);
 }
-.projects{
-  background-color: #e6e6e6;
-}
-.research{
-  background-color: #cccccc;
-}
-.publication{
-  background-color: white;
-  font-family:monospace;
+.buttons{
+  max-width: 37em;
+  color:rgb(141, 141, 141);
+  margin-top: 2em;
 }
 
+.badge{
+  margin-bottom: 1em;
+}
+.holder{
+  position: relative;
+}
 
-.awards{
-  background-color: #b3b3b3;
+image{
+  position:absolute;
+  width:100%;
 }
-.media{
-  background-color: #999999;
-}
-.more{
-  background-color: white;
+.cover{
+   position: absolute;
+   top: 10%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+
 }
 
 .card-block{
-  padding: .5em .5em .5em;
+  padding: .7em .7em .7em;
 }
-
 
 .card{
   border: none;
@@ -46,18 +49,15 @@ h1.card-title{
   font-weight:bold;
 }
 
-h2.card-title{
-  margin: 0;
-}
-
-h4.card-title{
-  margin: 0;
-}
 .btn-primary {
-  background-color: black;
+  border-width: 2px !important;
+  border-style: solid;
+  border-color: rgb(230, 230, 230);
+  background-color: white;
   border:none;
   color: #FFF;
   border-radius: 30px;
+  margin: .5em .5em .5em;
 }
 .btn-primary:hover{
   background-color: #40E0D0;
