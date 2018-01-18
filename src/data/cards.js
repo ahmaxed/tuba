@@ -42,7 +42,32 @@ export default [
   {
     "type":"publications",
     "title":"",
-    "content": "T Yilmaz, N Hasan, R Zane, Z Pantic. Multi-Objective Optimization of Circular Magnetic Couplers for Wireless Power Transfer Applications"
+    "content": "Tuba Yilmaz, Nazmul Hasan, Regan Zane, Zeljko Pantic, “Multi-Objective Optimization of Circular Magnetic Couplers for Wireless Power Transfer Applications,” IEEE Transactions on Magnetics, vol. 53, no. 8, pp 1-12, Aug. 2017."
+  },
+  {
+    "type":"publications",
+    "title":"",
+    "content": "Tuba Yilmaz, Mahmut Alp Kilic, Melike Erdogan, Mehmet Cayoren et al. “Machine Learning Aided Diagnosis of Hepatic Malignancies Through In-vivo Dielectric Measurements with Microwaves,” Physics in Medicine and Biology, vol. 61, no. 13, pp. 5089 - 5102, July 2016."
+  },
+  {
+    "type":"publications",
+    "title":"",
+    "content": "Tuba Yilmaz, Robert Foster, Yang Hao, “Towards Accurate Dielectric Property Retrieval of Biological Tissues for Blood Glucose Monitoring,” IEEE Transactions on Microwave Theory and Techniques, vol.62, no.12, pp.3193- 3204, Dec. 2014."
+  },
+  {
+    "type":"publications",
+    "title":"",
+    "content": "Tuba Yilmaz, Robert Foster, Yang Hao, “Broadband Tissue Mimicking Phantoms and a Patch Resonator for Evaluating Noninvasive Monitoring of Blood Glucose Levels,” IEEE Transactions on Antennas and Propagation, vol.62, no.6, pp.3064-3075, June 2014."
+  },
+  {
+    "type":"publications",
+    "title":"",
+    "content": "Tuba Yilmaz, Robert Foster, Yang Hao, “Detecting Vital Signs with Wearable Wireless Sensors,” Sensors 2010, no. 12, pp. 10837-10862, 2010."
+  },
+  {
+    "type":"publications",
+    "link":"https://scholar.google.com/citations?user=U2nbt_IAAAAJ",
+    "linkContent": "more on google scholar"
   },
   {
     "type":"awards",
@@ -59,4 +84,14 @@ export default [
     "title":"IET Today’s RF Tomorrow’s Medicine Workshop 2nd runner up prize, 2016.",
     "content": ""
   },
+  {
+    "type":"media",
+    "link":"https://www.ituvakif.org.tr/dergi/sayi_76.pdf",
+    "linkContent": "ITU Vakif"
+  },
+  {
+    "type":"media",
+    "link":"http://www.itu.edu.tr/haberler/2017/02/22/uc-projemiz-marie-sklodowska-curie-bireysel-arastirma-burslari-2016-destegi-alacak",
+    "linkContent": "ITU haberler"
+  }
 ]

@@ -4,7 +4,7 @@
   box-shadow: 0 3px 13px 1px rgba(0,0,0,0.12);
 }
 .buttons{
-  max-width: 37em;
+  max-width: 38em;
   color:rgb(141, 141, 141);
   margin-top: 2em;
 }
@@ -15,14 +15,13 @@
 .holder{
   position: relative;
 }
-
-image{
-  position:absolute;
-  width:100%;
+.container-fluid{
+  padding-right: 0px;
+  padding-left: 0px;
 }
 .cover{
    position: absolute;
-   top: 10%;
+   top: 5%;
    padding-top: 20px;
    padding-bottom: 20px;
 
@@ -55,14 +54,18 @@ h1.card-title{
   border-color: rgb(230, 230, 230);
   background-color: white;
   border:none;
-  color: #FFF;
+  color: rgb(141, 141, 141) !important;
   border-radius: 30px;
   margin: .5em .5em .5em;
 }
 .btn-primary:hover{
   background-color: #40E0D0;
-  color: #FFF;
+  color: white !important;
+  border-color:#40E0D0 !important;
 }
 .more{
   background:rgba(0,0,0,0);
+}
+.card-block .btn{
+  margin: 0;
 }

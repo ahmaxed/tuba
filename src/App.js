@@ -33,7 +33,7 @@ class App extends Component {
     return (
       <div className="App">
           <div className="holder">
-          <img class="img-fluid" src="http://via.placeholder.com/1080x600"/>
+          <img className="container-fluid" src="http://via.placeholder.com/1080x400"/>
           <div className="cover container">
             <div className="row">
               <h1 className="col-md-4 offset-md-8 card-title">TUBA <br/> YILMAZ</h1>
@@ -49,12 +49,12 @@ class App extends Component {
         <div className="container">
           <div className="row align-items-center justify-content-md-center">
             <div className = "buttons col col-md-7">
-              <a onClick={this.showAll} className="btn btn-primary">all</a>
-              <a onClick={() => this.showCards("projects")} className="btn btn-primary">projects</a>
-              <a onClick={() => this.showCards("research")} className="btn btn-primary">research</a>
-              <a onClick={() => this.showCards("publications")} className="btn btn-primary">publications</a>
-              <a onClick={() => this.showCards("awards")} className="btn btn-primary">awards</a>
-              <a onClick={() => this.showCards("media")} className="btn btn-primary">media</a>
+              <a onClick={this.showAll} className="btn btn-primary border">all</a>
+              <a onClick={() => this.showCards("projects")} className="btn btn-primary border">projects</a>
+              <a onClick={() => this.showCards("research")} className="btn btn-primary border">research</a>
+              <a onClick={() => this.showCards("publications")} className="btn btn-primary border">publications</a>
+              <a onClick={() => this.showCards("awards")} className="btn btn-primary border">awards</a>
+              <a onClick={() => this.showCards("media")} className="btn btn-primary border">media</a>
             </div>
         </div>
       </div>
@@ -67,9 +67,10 @@ class App extends Component {
               <div className="card" key={index}>
                 <div className="card-block">
                   <span className="badge badge-secondary">{card.type}</span>
+                  <br/>
                   {card.title ? <h4 className="card-title">{card.title}</h4>:''}
                   {card.content ? <p className="card-title">{card.content}</p>:''}
-                  {card.link? <a href={card.link} className="btn btn-primary">link</a>:''}
+                  {card.link? <a href={card.link} className="btn btn-primary border">{card.linkContent? card.linkContent: "link" }</a>:''}
                 </div>
               </div>
           )}
