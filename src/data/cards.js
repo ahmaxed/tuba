@@ -85,6 +85,31 @@ export default [
     "content": ""
   },
   {
+    "type":"awards",
+    "title":"QMUL Postgraduate Fund Travel Grant, June, 2012.",
+    "content": ""
+  },
+  {
+    "type":"awards",
+    "title":"QMUL Research Open Day Best Antenna Poster Award, April, 2012.",
+    "content": ""
+  },
+  {
+    "type":"awards",
+    "title":"IBM Best Poster Award at London Hopper Colloquium, April, 2011.",
+    "content": ""
+  },
+  {
+    "type":"awards",
+    "title":"National Science Foundation Travel grant January 2008 and January 2009.",
+    "content": ""
+  },
+  {
+    "type":"awards",
+    "title":"Dean’s honor list, Istanbul Technical University.",
+    "content": ""
+  },
+  {
     "type":"media",
     "link":"https://www.ituvakif.org.tr/dergi/sayi_76.pdf",
     "linkContent": "ITU Vakif"

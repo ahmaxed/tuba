@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import StackGrid from "react-stack-grid";
 import cards from './data/cards';
-const tuba = require('./assets/tuba.jpg');
+
 
 
 class App extends Component {
@@ -39,11 +39,20 @@ class App extends Component {
               <h1 className="col-md-4 offset-md-8 card-title">TUBA <br/> YILMAZ</h1>
             </div>
             <div className="row">
-            <p className="col-md-4 offset-md-8 card-text">
-              Dr. Tuba Yilmaz Abdolsaheb is an Assistant Professor and a Marie Sklodowska Curie
-              Research Fellow in Department of Electronics and Communication Engineering
-              at Istanbul Technical University (ITU).</p>
+              <p className="col-md-4 offset-md-8 card-text">
+                Dr. Tuba Yilmaz Abdolsaheb is an Assistant Professor and a Marie Sklodowska Curie
+                Research Fellow in Department of Electronics and Communication Engineering
+                at Istanbul Technical University (ITU).
+              </p>
             </div>
+            <div className="row">
+              <div className="col-md-4 offset-md-8 buttons-image">
+                <a  src="./assets/CV.pdf"className="btn btn-primary border" download>download CV</a>
+                <a src="mailto:yilmazabdolsahe@itu.edu.tr" className="btn btn-primary border">send email</a>
+              </div>
+            </div>
+
+
           </div>
         </div>
         <div className="container">
