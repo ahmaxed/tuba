@@ -13,8 +13,9 @@
 .badge{
   margin-bottom: 1em;
 }
+//  background: url('https://images.unsplash.com/photo-1499914567823-c240485cb7d1?auto=format&fit=crop&w=750&q=80') no-repeat center center fixed;
+
 .holder{
-  background: url('https://images.unsplash.com/photo-1499914567823-c240485cb7d1?auto=format&fit=crop&w=750&q=80') no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -119,20 +120,21 @@ a.all{
 }
 
 
-// Small devices (landscape phones, 576px and up)
+
 @media (min-width: 576px) {
-  .border {
-    background:blue  !important;
+  .buttons-image .border {
   }
  }
 
-// Medium devices (tablets, 768px and up)
+
 @media (min-width: 768px) {
+  .buttons-image .border {
+  }
 
 
  }
 
-// Large devices (desktops, 992px and up)
+
 @media (min-width: 992px) {
 
 }

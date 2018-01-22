@@ -44,8 +44,8 @@ class App extends Component {
             </div>
             <div className="row">
               <div className="col-sm-6 offset-sm-6 col-md-4 offset-md-8 buttons-image">
-                <a src="./assets/CV.pdf" className="btn btn-primary border" download>download CV</a>
-                <a src="mailto:yilmazabdolsahe@itu.edu.tr" className="btn btn-primary border">send email</a>
+                <a href="CV.pdf" className="btn btn-primary border" target="_blank" download="CV">CV</a>
+                <a href="mailto:yilmazabdolsahe@itu.edu.tr" className="btn btn-primary border">Email</a>
               </div>
             </div>
           </div>
