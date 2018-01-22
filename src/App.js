@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import StackGrid from "react-stack-grid";
 import cards from './data/cards';
 
-
-
 class App extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       cards: cards
@@ -14,76 +12,74 @@ class App extends Component {
     this.showAll = this.showAll.bind(this);
     this.showCards = this.showCards.bind(this);
   }
-  showAll(){
-    this.setState({
-        cards: cards
-      });
+  showAll() {
+    this.setState({cards: cards});
   }
 
-  showCards(type){
+  showCards(type) {
     this.setState({
-        cards: cards.filter(card => card.type === type)
-      });
+      cards: cards.filter(card => card.type === type)
+    });
   }
-
 
   render() {
     console.log(this.state.cards);
 
     return (
       <div className="App">
-          <div className="holder">
-          <img className="container-fluid" src="http://via.placeholder.com/1080x400"/>
+        <div className="holder">
+          {/*
+<img className="container-fluid" src="http://via.placeholder.com/1080x400"/>
+          */}
           <div className="cover container">
             <div className="row">
-              <h1 className="col-md-4 offset-md-8 card-title">TUBA <br/> YILMAZ</h1>
+              <h1 className="col-sm-6 offset-sm-6 col-md-4 offset-md-8 card-title">TUBA
+                <br/>
+                YILMAZ</h1>
             </div>
             <div className="row">
-              <p className="col-md-4 offset-md-8 card-text">
-                Dr. Tuba Yilmaz Abdolsaheb is an Assistant Professor and a Marie Sklodowska Curie
-                Research Fellow in Department of Electronics and Communication Engineering
-                at Istanbul Technical University (ITU).
+              <p className="col-sm-6 offset-sm-6 col-md-4 offset-md-8 card-text">
+                Dr. Tuba Yilmaz Abdolsaheb is an Assistant Professor and a Marie Sklodowska Curie Research Fellow in Department of Electronics and Communication Engineering at Istanbul Technical University (ITU).
               </p>
             </div>
             <div className="row">
-              <div className="col-md-4 offset-md-8 buttons-image">
-                <a  src="./assets/CV.pdf"className="btn btn-primary border" download>download CV</a>
+              <div className="col-sm-6 offset-sm-6 col-md-4 offset-md-8 buttons-image">
+                <a src="./assets/CV.pdf" className="btn btn-primary border" download>download CV</a>
                 <a src="mailto:yilmazabdolsahe@itu.edu.tr" className="btn btn-primary border">send email</a>
               </div>
             </div>
-
-
           </div>
         </div>
         <div className="container">
           <div className="row align-items-center justify-content-md-center">
-            <div className = "buttons col col-md-7">
-              <a onClick={this.showAll} className="btn btn-primary border">all</a>
-              <a onClick={() => this.showCards("projects")} className="btn btn-primary border">projects</a>
-              <a onClick={() => this.showCards("research")} className="btn btn-primary border">research</a>
-              <a onClick={() => this.showCards("publications")} className="btn btn-primary border">publications</a>
-              <a onClick={() => this.showCards("awards")} className="btn btn-primary border">awards</a>
-              <a onClick={() => this.showCards("media")} className="btn btn-primary border">media</a>
+            <div className="buttons col col-md-7">
+              <a onClick={this.showAll} className="btn btn-primary border all">all</a>
+              <a onClick={() => this.showCards("projects")} className="btn btn-primary border projects">projects</a>
+              <a onClick={() => this.showCards("research")} className="btn btn-primary border research">research</a>
+              <a onClick={() => this.showCards("publications")} className="btn btn-primary border publications">publications</a>
+              <a onClick={() => this.showCards("awards")} className="btn btn-primary border awards">awards</a>
+              <a onClick={() => this.showCards("media")} className="btn btn-primary border media">media</a>
             </div>
+          </div>
         </div>
-      </div>
-        <StackGrid className="Stack" columnWidth={300}
-          monitorImagesLoaded={true}
-          gutterHeight={20}
-          gutterWidth={20}
-          >
-          {this.state.cards.map((card, index) =>
-              <div className="card" key={index}>
-                <div className="card-block">
-                  <span className="badge badge-secondary">{card.type}</span>
-                  <br/>
-                  {card.title ? <h4 className="card-title">{card.title}</h4>:''}
-                  {card.content ? <p className="card-title">{card.content}</p>:''}
-                  {card.link? <a href={card.link} className="btn btn-primary border">{card.linkContent? card.linkContent: "link" }</a>:''}
-                </div>
-              </div>
-          )}
-          </StackGrid>
+        <StackGrid className="Stack" columnWidth={300} monitorImagesLoaded={true} gutterHeight={20} gutterWidth={20}>
+          {this.state.cards.map((card, index) => <div className="card" key={index}>
+            <div className="card-block">
+              <span className={"badge badge-secondary " + card.type}>{card.type}</span>
+              <br/> {card.title
+                ? <h4 className="card-title">{card.title}</h4>
+                : ''}
+              {card.content
+                ? <p className="card-title">{card.content}</p>
+                : ''}
+              {card.link
+                ? <a href={card.link} className="btn btn-primary border">{card.linkContent
+                      ? card.linkContent
+                      : "link"}</a>
+                : ''}
+            </div>
+          </div>)}
+        </StackGrid>
       </div>
     );
   }

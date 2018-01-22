@@ -42,27 +42,27 @@ export default [
   {
     "type":"publications",
     "title":"",
-    "content": "Tuba Yilmaz, Nazmul Hasan, Regan Zane, Zeljko Pantic, “Multi-Objective Optimization of Circular Magnetic Couplers for Wireless Power Transfer Applications,” IEEE Transactions on Magnetics, vol. 53, no. 8, pp 1-12, Aug. 2017."
+    "content": "J1, Tuba Yilmaz, Nazmul Hasan, Regan Zane, Zeljko Pantic, “Multi-Objective Optimization of Circular Magnetic Couplers for Wireless Power Transfer Applications,” IEEE Transactions on Magnetics, vol. 53, no. 8, pp 1-12, Aug. 2017."
   },
   {
     "type":"publications",
     "title":"",
-    "content": "Tuba Yilmaz, Mahmut Alp Kilic, Melike Erdogan, Mehmet Cayoren et al. “Machine Learning Aided Diagnosis of Hepatic Malignancies Through In-vivo Dielectric Measurements with Microwaves,” Physics in Medicine and Biology, vol. 61, no. 13, pp. 5089 - 5102, July 2016."
+    "content": "J2, Tuba Yilmaz, Mahmut Alp Kilic, Melike Erdogan, Mehmet Cayoren et al. “Machine Learning Aided Diagnosis of Hepatic Malignancies Through In-vivo Dielectric Measurements with Microwaves,” Physics in Medicine and Biology, vol. 61, no. 13, pp. 5089 - 5102, July 2016."
   },
   {
     "type":"publications",
     "title":"",
-    "content": "Tuba Yilmaz, Robert Foster, Yang Hao, “Towards Accurate Dielectric Property Retrieval of Biological Tissues for Blood Glucose Monitoring,” IEEE Transactions on Microwave Theory and Techniques, vol.62, no.12, pp.3193- 3204, Dec. 2014."
+    "content": "J3, Tuba Yilmaz, Robert Foster, Yang Hao, “Towards Accurate Dielectric Property Retrieval of Biological Tissues for Blood Glucose Monitoring,” IEEE Transactions on Microwave Theory and Techniques, vol.62, no.12, pp.3193- 3204, Dec. 2014."
   },
   {
     "type":"publications",
     "title":"",
-    "content": "Tuba Yilmaz, Robert Foster, Yang Hao, “Broadband Tissue Mimicking Phantoms and a Patch Resonator for Evaluating Noninvasive Monitoring of Blood Glucose Levels,” IEEE Transactions on Antennas and Propagation, vol.62, no.6, pp.3064-3075, June 2014."
+    "content": "J4, Tuba Yilmaz, Robert Foster, Yang Hao, “Broadband Tissue Mimicking Phantoms and a Patch Resonator for Evaluating Noninvasive Monitoring of Blood Glucose Levels,” IEEE Transactions on Antennas and Propagation, vol.62, no.6, pp.3064-3075, June 2014."
   },
   {
     "type":"publications",
     "title":"",
-    "content": "Tuba Yilmaz, Robert Foster, Yang Hao, “Detecting Vital Signs with Wearable Wireless Sensors,” Sensors 2010, no. 12, pp. 10837-10862, 2010."
+    "content": "J5, Tuba Yilmaz, Robert Foster, Yang Hao, “Detecting Vital Signs with Wearable Wireless Sensors,” Sensors 2010, no. 12, pp. 10837-10862, 2010."
   },
   {
     "type":"publications",
@@ -112,11 +112,13 @@ export default [
   {
     "type":"media",
     "link":"https://www.ituvakif.org.tr/dergi/sayi_76.pdf",
-    "linkContent": "ITU Vakif"
+    "content": "Elektronik ve Haberleşme Mühendisliği Bölümü’nden Yrd. Doç. Dr. Tuba Yılmaz Abdolsaheb’in “Açık Uçlu Sondaj Yöntemiyle Meme Kanserinin Mikrodalgalarla Teşhisi (Microwave Diagnosis of Breast Cancer with Open Ended Contact Probe - MIDxPRO) adlı projesi de Avrupa Birliği Horizon 2020 Marie Sklodowska Curie Bireysel Araştırma Bursları (Individual Fellowships - IF) 2016 çağrısı dâhilinde destek alacak.",
+    "linkContent": "more"
   },
   {
     "type":"media",
     "link":"http://www.itu.edu.tr/haberler/2017/02/22/uc-projemiz-marie-sklodowska-curie-bireysel-arastirma-burslari-2016-destegi-alacak",
-    "linkContent": "ITU haberler"
+    "content": "Üniversitemizden üç araştırmacı, Horizon 2020 Programı Marie Sklodowska Curie Bireysel Araştırma Bursları 2016 çağrısı kapsamında desteğe değer görüldü.",
+    "linkContent": "more"
   }
 ]
