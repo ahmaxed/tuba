@@ -67,8 +67,13 @@ h1.card-title{
   color: white !important;
   border-color:	#404040 !important;
 }
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none !important;
+}
 .btn-primary:active{
   background-color: #404040 !important;
+  border-color:	#404040 !important;
 }
 .more{
   background:rgba(0,0,0,0);
@@ -76,12 +81,12 @@ h1.card-title{
 .card-block .btn{
   margin: 0;
 }
-// color pallete
+
 span.projects{
-  background-color:#F8B195;
+  background-color:#f8b195;
 }
 a.projects{
-  border-color:#F8B195 !important;
+  border-color:#f8b195 !important;
 }
 span.research{
   background:#F67280;
