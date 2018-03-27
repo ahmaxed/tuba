@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import StackGrid from "react-stack-grid";
 import cards from './data/cards';
+var images = require.context('./assets', true);
 
 class App extends Component {
   constructor(props) {
@@ -23,7 +24,8 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.cards);
+    let n = "ahmad";
+    console.log(`hello, ${n}`);
 
     return (
       <div className="App">
@@ -63,22 +65,28 @@ class App extends Component {
           </div>
         </div>
         <StackGrid className="Stack" columnWidth={300} monitorImagesLoaded={true} gutterHeight={20} gutterWidth={20}>
-          {this.state.cards.map((card, index) => <div className="card" key={index}>
-            <div className="card-block">
-              <span className={"badge badge-secondary " + card.type}>{card.type}</span>
-              <br/> {card.title
-                ? <h4 className="card-title">{card.title}</h4>
-                : ''}
-              {card.content
-                ? <p className="card-title">{card.content}</p>
-                : ''}
-              {card.link
-                ? <a href={card.link} className="btn btn-primary border">{card.linkContent
-                      ? card.linkContent
-                      : "link"}</a>
-                : ''}
+          {this.state.cards.map((card, index) =>
+            <div className="card" key={index}>
+              {card.image
+
+                ? <img className="card-img-top image-limit" src={require('./assets/'+card.image)}alt="Card image cap"/>
+                : ""}
+              <div className="card-block">
+                <span className={"badge badge-secondary " + card.type}>{card.type}</span>
+                <br/> {card.title
+                  ? <h4 className="card-title">{card.title}</h4>
+                  : ''}
+                {card.content
+                  ? <p className="card-title">{card.content}</p>
+                  : ''}
+                {card.link
+                  ? <a href={card.link} className="btn btn-primary border">{card.linkContent
+                        ? card.linkContent
+                        : "link"}</a>
+                  : ''}
+              </div>
             </div>
-          </div>)}
+          )}
         </StackGrid>
       </div>
     );

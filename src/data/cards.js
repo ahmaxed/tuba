@@ -17,27 +17,26 @@ export default [
   {
     "type":"research",
     "title":"Dielectric Spectroscopy",
-    "content": ""
+    "content": "",
+    "image":"1.svg"
   },
   {
     "type":"research",
     "title":"Design and Testing of Microwave Wearable Sensors",
-    "content": ""
+    "content": "",
+    "image":"2.svg"
   },
   {
     "type":"research",
     "title":"Phantom Characterization for bio-electromagnetics applications",
-    "content": ""
+    "content": "",
+    "image":"3.svg"
   },
   {
     "type":"research",
-    "title":"Design and Testing of On-body Antennas",
-    "content": ""
-  },
-  {
-    "type":"research",
-    "title":"Design and Testing of Implantable Antennas",
-    "content": ""
+    "title":"Design and Testing of On-body and Implantable Antennas Antennas",
+    "content": "",
+    "image":"4.svg"
   },
   {
     "type":"publications",
