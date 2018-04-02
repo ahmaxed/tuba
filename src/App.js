@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './App.css';
 import StackGrid from "react-stack-grid";
 import cards from './data/cards';
-var images = require.context('./assets', true);
 
 class App extends Component {
   constructor(props) {
@@ -24,15 +23,36 @@ class App extends Component {
   }
 
   render() {
-    let n = "ahmad";
-    console.log(`hello, ${n}`);
 
     return (
       <div className="App">
         <div className="holder">
-          {/*
-<img className="container-fluid" src="http://via.placeholder.com/1080x400"/>
-          */}
+          <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Open modal
+          </button>
+          <div className="modal fade" id="myModal">
+            <div className="modal-dialog">
+              <div className="modal-content">
+
+                <div className="modal-header">
+                  <h4 className="modal-title">Modal Heading</h4>
+                  <button type="button" className="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div className="modal-body">
+                  Modal body..
+                </div>
+
+                <div className="modal-footer">
+                  <button type="button" className="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+
           <div className="cover container">
             <div className="row">
               <h1 className="col-sm-6 offset-sm-6 col-md-4 offset-md-8 card-title">TUBA
