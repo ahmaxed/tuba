@@ -2,15 +2,18 @@ import React, {Component} from 'react';
 import './App.css';
 import StackGrid from "react-stack-grid";
 import cards from './data/cards';
+import ModalMC from './ModalMC';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      cards: cards
+      cards: cards,
+      modalShow: false
     };
     this.showAll = this.showAll.bind(this);
     this.showCards = this.showCards.bind(this);
+    this.toggleModal = this.toggleModal.bind(this);
   }
   showAll() {
     this.setState({cards: cards});
@@ -22,37 +25,16 @@ class App extends Component {
     });
   }
 
-  render() {
+  toggleModal() {
+    this.setState(prevState => ({
+      modalShow: !prevState.modalShow
+    }));
+  }
 
+  render() {
     return (
       <div className="App">
         <div className="holder">
-          <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#myModal">
-            Open modal
-          </button>
-          <div className="modal fade" id="myModal">
-            <div className="modal-dialog">
-              <div className="modal-content">
-
-                <div className="modal-header">
-                  <h4 className="modal-title">Modal Heading</h4>
-                  <button type="button" className="close" data-dismiss="modal">&times;</button>
-                </div>
-
-                <div className="modal-body">
-                  Modal body..
-                </div>
-
-                <div className="modal-footer">
-                  <button type="button" className="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-
-
           <div className="cover container">
             <div className="row">
               <h1 className="col-sm-6 offset-sm-6 col-md-4 offset-md-8 card-title">TUBA
@@ -89,7 +71,7 @@ class App extends Component {
             <div className="card" key={index}>
               {card.image
 
-                ? <img className="card-img-top image-limit" src={require('./assets/'+card.image)}alt="Card image cap"/>
+                ? <img className="card-img-top image-limit" src={require('./assets/'+card.image)} alt={card.title}/>
                 : ""}
               <div className="card-block">
                 <span className={"badge badge-secondary " + card.type}>{card.type}</span>
@@ -104,10 +86,14 @@ class App extends Component {
                         ? card.linkContent
                         : "link"}</a>
                   : ''}
+                {card.modal
+                  ? <a href={card.link} className="btn btn-primary border"onClick={this.toggleModal}>{card.modal}</a>
+                  : ''}
               </div>
             </div>
           )}
         </StackGrid>
+        <ModalMC visible={this.state.modalShow} closeModal={this.toggleModal}/>
       </div>
     );
   }

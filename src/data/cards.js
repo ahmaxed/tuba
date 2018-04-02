@@ -2,7 +2,8 @@ export default [
   {
     "type":"projects",
     "title":"H2020 - MARIE SKLODOWSKA CURIE INDIVIDUAL FELLOWSHIP - RI Grant",
-    "content": "Principal Investigator, microwave Diagnosis Of Breast Cancer With Open Ended Contact Probe - MIDxPRO, Budget: 157,845 EUR, 2017-2019."
+    "content": "Principal Investigator, microwave Diagnosis Of Breast Cancer With Open Ended Contact Probe - MIDxPRO, Budget: 157,845 EUR, 2017-2019.",
+    "modal": "status"
   },
   {
     "type":"projects",
@@ -112,12 +113,12 @@ export default [
     "type":"media",
     "link":"https://www.ituvakif.org.tr/dergi/sayi_76.pdf",
     "content": "Elektronik ve Haberleşme Mühendisliği Bölümü’nden Yrd. Doç. Dr. Tuba Yılmaz Abdolsaheb’in “Açık Uçlu Sondaj Yöntemiyle Meme Kanserinin Mikrodalgalarla Teşhisi (Microwave Diagnosis of Breast Cancer with Open Ended Contact Probe - MIDxPRO) adlı projesi de Avrupa Birliği Horizon 2020 Marie Sklodowska Curie Bireysel Araştırma Bursları (Individual Fellowships - IF) 2016 çağrısı dâhilinde destek alacak.",
-    "linkContent": "more"
+    "linkContent": "link"
   },
   {
     "type":"media",
     "link":"http://www.itu.edu.tr/haberler/2017/02/22/uc-projemiz-marie-sklodowska-curie-bireysel-arastirma-burslari-2016-destegi-alacak",
     "content": "Üniversitemizden üç araştırmacı, Horizon 2020 Programı Marie Sklodowska Curie Bireysel Araştırma Bursları 2016 çağrısı kapsamında desteğe değer görüldü.",
-    "linkContent": "more"
+    "linkContent": "link"
   }
 ]
