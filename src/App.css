@@ -128,7 +128,9 @@ a.media{
 a.all{
   border-color:	#808080 !important;
 }
-
+.modal-body p{
+  text-align: justify;
+}
 
 
 @media (min-width: 576px) {
