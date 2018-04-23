@@ -19,12 +19,22 @@
   height:100px;
 }
 
-.head-shot{
+.headshot{
+  width:500px;
   position:absolute;
-  width:300px;
-  height:100px;
-  background:blue;
-  margin-bottom: -20px
+  margin-left:-100px;
+  margin-top:-316px;
+  z-index: 0;
+}
+
+.holder{
+  height:700px;
+  z-index: -1;
+}
+
+.headshot-text{
+  position:absolute;
+  z-index: 1;
 }
 
 .bio{
@@ -32,9 +42,10 @@
   width:300px;
   height: 400px;
   color:white;
-  background:rgba(128,128,128,0.5);
   left: 50%;
   margin-left:-150px;
+  padding-top: 275px;
+  padding-bottom:50px;
 }
 
 .card-text{

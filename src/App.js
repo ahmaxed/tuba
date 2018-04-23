@@ -35,8 +35,9 @@ class App extends Component {
     return (
       <div className="App">
         <div className="holder">
-          <div className="cover">
-            <div className="bio">
+          <div className="bio">
+            <img className="headshot" src={require('./assets/headshot.PNG')} />
+            <div className="headshot-text">
               <h1 className="card-title">
                 TUBA
                 <br/>
