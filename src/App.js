@@ -35,19 +35,17 @@ class App extends Component {
     return (
       <div className="App">
         <div className="holder">
-          <div className="cover container">
-            <div className="row">
-              <h1 className="col-sm-6 offset-sm-6 col-md-4 offset-md-8 card-title">TUBA
+          <div className="cover">
+            <div className="bio">
+              <h1 className="card-title">
+                TUBA
                 <br/>
-                YILMAZ</h1>
-            </div>
-            <div className="row">
-              <p className="col-sm-6 offset-sm-6 col-md-4 offset-md-8 card-text">
+                YILMAZ
+              </h1>
+              <p className="card-text">
                 Dr. Tuba Yilmaz Abdolsaheb is an Assistant Professor and a Marie Sklodowska Curie Research Fellow in Department of Electronics and Communication Engineering at Istanbul Technical University (ITU).
               </p>
-            </div>
-            <div className="row">
-              <div className="col-sm-6 offset-sm-6 col-md-4 offset-md-8 buttons-image">
+              <div className="buttons-image">
                 <a href="CV.pdf" className="btn btn-primary border" target="_blank" download="CV">CV</a>
                 <a href="mailto:yilmazabdolsahe@itu.edu.tr" className="btn btn-primary border">Email</a>
               </div>
