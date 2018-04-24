@@ -20,16 +20,16 @@
 }
 
 .headshot{
-  width:500px;
-  position:absolute;
-  margin-left:-100px;
-  margin-top:-316px;
-  z-index: 0;
+  width:0px;
+  visibility:hidden;
 }
 
-.holder{
-  height:700px;
-  z-index: -1;
+.bio{
+  position:relative;
+  width:auto;
+  height: 400px;
+  left: 50%;
+  margin-left:-150px;
 }
 
 .headshot-text{
@@ -37,26 +37,19 @@
   z-index: 1;
 }
 
-.bio{
-  position:relative;
-  width:300px;
-  height: 400px;
-  color:white;
-  left: 50%;
-  margin-left:-150px;
-  padding-top: 275px;
-  padding-bottom:50px;
-}
-
 .card-text{
   text-align: justify;
+}
+
+.holder{
+  height:450px;
 }
 .holder{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8b195+0,f67280+37,f67280+37,c06084+69,6c5b7b+95,355c7d+100 */
   background: #f8b195; /* Old browsers */
   background: -moz-linear-gradient(-45deg, #f8b195 0%, #f67280 37%, #c06084 69%, #6c5b7b 95%, #355c7d 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(-45deg, #f8b195 0%, #f67280 37%,#c06084 69%,#6c5b7b 95%,#355c7d 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(100deg, rgba(248, 177, 149, .6) 0%,rgb(246, 114, 128, .6) 37%,rgba(192, 96, 132, .6) 69%,rgba(108, 91, 123, .6) 95%,rgba(53, 92, 125, .6) 100%), url("https://images.unsplash.com/photo-1507484964334-b6f38e7d0921?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9dce7fce9eb7cf1e0400e5430bf34c7e&auto=format&fit=crop&w=1500&q=80"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(100deg, rgb(248, 177, 149) 0%,rgb(246, 114, 128) 37%,rgb(192, 96, 132) 69%,rgb(108, 91, 123) 95%,rgb(53, 92, 125) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8b195', endColorstr='#355c7d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -158,24 +151,48 @@ a.all{
 .modal-body p{
   text-align: justify;
 }
+@media (min-width: 300px) {
+  .bio{
+    width:300px;
+  }
+ }
 
+@media (min-width: 500px) {
+  .headshot{
+    visibility: visible;
+    width:500px;
+    position:absolute;
+    margin-left:-100px;
+    margin-top:-316px;
+    z-index: 0;
+  }
 
-@media (min-width: 576px) {
-  .buttons-image .border {
+  .holder{
+    height:700px;
+    z-index: -1;
+    background: -moz-linear-gradient(-45deg, #f8b195 0%, #f67280 37%, #c06084 69%, #6c5b7b 95%, #355c7d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #f8b195 0%, #f67280 37%,#c06084 69%,#6c5b7b 95%,#355c7d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(100deg, rgba(248, 177, 149, .6) 0%,rgba(246, 114, 128, .6) 37%,rgba(192, 96, 132, .6) 69%,rgba(108, 91, 123, .6) 95%,rgba(53, 92, 125, .6) 100%), url("./assets/tile.png"); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
+
+  .bio{
+    padding-top: 275px;
+    padding-bottom:50px;
+    color:white;
+  }
+
+  .headshot-text{
+    position:absolute;
+    z-index: 1;
   }
  }
 
 
 @media (min-width: 768px) {
-  .buttons-image .border {
-  }
-
-
  }
 
 
 @media (min-width: 992px) {
-
 }
 
 // Extra large devices (large desktops, 1200px and up)
