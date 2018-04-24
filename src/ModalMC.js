@@ -35,6 +35,7 @@ class ModalMC extends React.Component {
             transformed into innovation. Finally, the goal of the proposed research, building the foundation for innovation, is also in line
             with ‘Future and Emerging Technologies’ call of the H2020 work program.</p>
             <a href="https://cordis.europa.eu/project/rcn/209324_en.html" className="btn btn-primary border" target="_blank" rel="noopener noreferrer">more project info on Cordis</a>
+            <a href="http://midxpro.com/" className="btn btn-primary border" target="_blank" rel="noopener noreferrer">visit MIDXPRO website</a>
         </div>
       </Modal>
     );
