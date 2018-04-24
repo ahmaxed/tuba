@@ -3,7 +3,7 @@ export default [
     "type":"projects",
     "title":"H2020 - MARIE SKLODOWSKA CURIE INDIVIDUAL FELLOWSHIP - RI Grant",
     "content": "Principal Investigator, microwave Diagnosis Of Breast Cancer With Open Ended Contact Probe - MIDxPRO, Budget: 157,845 EUR, 2017-2019.",
-    "modal": "status"
+    "modal": "info"
   },
   {
     "type":"projects",
