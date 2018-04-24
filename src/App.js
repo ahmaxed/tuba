@@ -39,9 +39,7 @@ class App extends Component {
             <img className="headshot" src={require('./assets/headshot.PNG')} />
             <div className="headshot-text">
               <h1 className="card-title">
-                TUBA
-                <br/>
-                YILMAZ
+                TUBA YILMAZ
               </h1>
               <p className="card-text">
                 Dr. Tuba Yilmaz Abdolsaheb is an Assistant Professor and a Marie Sklodowska Curie Research Fellow in Department of Electronics and Communication Engineering at Istanbul Technical University (ITU).

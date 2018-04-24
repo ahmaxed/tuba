@@ -158,17 +158,20 @@ a.all{
  }
 
 @media (min-width: 500px) {
+  h1.card-title{
+    font-size: 43px;
+  }
   .headshot{
     visibility: visible;
     width:500px;
     position:absolute;
     margin-left:-100px;
-    margin-top:-316px;
+    margin-top:-326px;
     z-index: 0;
   }
 
   .holder{
-    height:700px;
+    height:580px;
     z-index: -1;
     background: -moz-linear-gradient(-45deg, #f8b195 0%, #f67280 37%, #c06084 69%, #6c5b7b 95%, #355c7d 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, #f8b195 0%, #f67280 37%,#c06084 69%,#6c5b7b 95%,#355c7d 100%); /* Chrome10-25,Safari5.1-6 */
@@ -176,7 +179,7 @@ a.all{
   }
 
   .bio{
-    padding-top: 275px;
+    padding-top: 285px;
     padding-bottom:50px;
     color:white;
   }
@@ -189,6 +192,10 @@ a.all{
 
 
 @media (min-width: 768px) {
+  .bio{
+    left: 40%;
+    margin-left:-150px;
+  }
  }
 
 
