@@ -46,23 +46,31 @@ export default [
   },
   {
     "type":"publications",
+    "link":"https://www.mdpi.com/620376",
     "title":"",
-    "content": "J1. Tuba Yilmaz, “Multiclass Classification of Hepatic Anomalies with Dielectric Properties: From Phantom Materials to Rat Hepatic Tissues,” Sensors, vol. 20, no. 2, pp 530-543, Jan. 2020."
+    "content": "J1. Tuba Yilmaz, “Multiclass Classification of Hepatic Anomalies with Dielectric Properties: From Phantom Materials to Rat Hepatic Tissues,” Sensors, vol. 20, no. 2, pp 530-543, Jan. 2020.",
+    "linkContent": "Full Text"
   },
   {
     "type":"publications",
+    "link":"http://hdl.handle.net/11527/18059",
     "title":"",
-    "content": "J2. Tuba Yilmaz, Banu Saçli, Gökhan Cansiz, Sulayman Joof, Cemanur Aydinalp, Mehmet Çayören, Ibrahim Akduman, Bülent Önal,“Microwave dielectric spectroscopy of renal calculi: A large scale study on dielectric properties from 500 MHz to 18 GHz,” IEEE Transactions on Dielectrics and Electrical Insulation, vol. 26, no. 5, pp 1425 - 1433 Oct. 2019."
+    "content": "J2. Tuba Yilmaz, Banu Saçli, Gökhan Cansiz, Sulayman Joof, Cemanur Aydinalp, Mehmet Çayören, Ibrahim Akduman, Bülent Önal,“Microwave dielectric spectroscopy of renal calculi: A large scale study on dielectric properties from 500 MHz to 18 GHz,” IEEE Transactions on Dielectrics and Electrical Insulation, vol. 26, no. 5, pp 1425 - 1433 Oct. 2019.",
+    "linkContent": "Author Version"
   },
   {
     "type":"publications",
+    "link":"http://hdl.handle.net/11527/18055",
     "title":"",
-    "content": "J3. Banu Saçlı, Cemanur Aydınalp, Gökhan Cansız, Sulayman Joof, Tuba Yilmaz, Mehmet Çayören, Bülent Önal, Ibrahim Akduman,“Microwave dielectric property based classification of renal calculi: Application of a kNN algorithm,” Computers in Biology and Medicine, vol. 112, p 103366, Sept. 2019."
+    "content": "J3. Banu Saçlı, Cemanur Aydınalp, Gökhan Cansız, Sulayman Joof, Tuba Yilmaz, Mehmet Çayören, Bülent Önal, Ibrahim Akduman,“Microwave dielectric property based classification of renal calculi: Application of a kNN algorithm,” Computers in Biology and Medicine, vol. 112, p 103366, Sept. 2019.",
+    "linkContent": "Author Version"
   },
   {
     "type":"publications",
+    "link":"https://www.mdpi.com/391744",
     "title":"",
-    "content": "J4. Tuba Yilmaz, Robert Foster,Yang Hao,“Radio-Frequency and Microwave Techniques for Non-Invasive Measurement of Blood Glucose Levels,” Diagnostics, vol. 9, no. 1, pp 6-40, Jan. 2019."
+    "content": "J4. Tuba Yilmaz, Robert Foster,Yang Hao,“Radio-Frequency and Microwave Techniques for Non-Invasive Measurement of Blood Glucose Levels,” Diagnostics, vol. 9, no. 1, pp 6-40, Jan. 2019.",
+    "linkContent": "Full Text"
   },
   {
     "type":"publications",
