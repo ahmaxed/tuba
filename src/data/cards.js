@@ -53,10 +53,51 @@ export default [
   },
   {
     type: "publications",
+    link: "https://www.mdpi.com/1028940",
+    title: "",
+    content:
+      "J1. Gulsah Altintas, Ibrahim Akduman, Aleksandar Janic,Tuba Yilmaz, “A Novel Approach on Microwave Hyperthermia,” Diagnostics, vol. 11, no. 3, pp. 493-503, Mar. 2021.",
+    linkContent: "Full Text",
+  },
+  {
+    type: "publications",
+    link: "https://www.mdpi.com/1002876",
+    title: "",
+    content:
+      "J2. Cemanur Aydinalp, Sulayman Joof, Tuba Yilmaz, “Towards Accurate Microwave Characterization of Tissues: Sensing Depth Analysis of Open-Ended Coaxial Probes with Ex Vivo Rat Breast and Skin Tissues,” Diagnostics, vol. 11, no. 2, pp. 338-357, Feb. 2021.",
+    linkContent: "Full Text",
+  },
+  {
+    type: "publications",
+    link: "https://www.mdpi.com/996798",
+    title: "",
+    content:
+      "J3. Cemanur Aydinalp, Sulayman Joof, Tuba Yilmaz, “Towards Non-Invasive Diagnosis of Skin Cancer: Sensing Depth Investigation of Open-Ended Coaxial Probes,” Sensors, vol. 21, no. 4, pp. 1319-1338, Feb. 2021.",
+    linkContent: "Full Text",
+  },
+
+  {
+    type: "publications",
+    link: "https://dergipark.org.tr/en/download/article-file/1220700",
+    title: "",
+    content:
+      "J4. Tuba Yilmaz “Microwave Spectroscopy Based Classification of Rat Hepatic Tissues: On the Significance of Dataset,” Balkan Journal of Electrical and Computer Engineering, vol. 8, no. 4, pp. 307-313, Oct. 2020.",
+    linkContent: "Full Text",
+  },
+  {
+    type: "publications",
+    link: "https://www.mdpi.com/690760",
+    title: "",
+    content:
+      "J5. Tuba Yilmaz, Fatma Ates Alkan, “In Vivo Dielectric Properties of Healthy and Benign Rat Mammary Tissues from 500 MHz to 18 GHz,” Sensors, vol. 20, no. 8, pp. 2214-2226, Apr. 2020.",
+    linkContent: "Full Text",
+  },
+  {
+    type: "publications",
     link: "https://www.mdpi.com/620376",
     title: "",
     content:
-      "J1. Tuba Yilmaz, “Multiclass Classification of Hepatic Anomalies with Dielectric Properties: From Phantom Materials to Rat Hepatic Tissues,” Sensors, vol. 20, no. 2, pp 530-543, Jan. 2020.",
+      "J6. Tuba Yilmaz, “Multiclass Classification of Hepatic Anomalies with Dielectric Properties: From Phantom Materials to Rat Hepatic Tissues,” Sensors, vol. 20, no. 2, pp. 530-543, Jan. 2020.",
     linkContent: "Full Text",
   },
   {
@@ -64,7 +105,7 @@ export default [
     link: "http://hdl.handle.net/11527/18059",
     title: "",
     content:
-      "J2. Tuba Yilmaz, Banu Saçli, Gökhan Cansiz, Sulayman Joof, Cemanur Aydinalp, Mehmet Çayören, Ibrahim Akduman, Bülent Önal,“Microwave dielectric spectroscopy of renal calculi: A large scale study on dielectric properties from 500 MHz to 18 GHz,” IEEE Transactions on Dielectrics and Electrical Insulation, vol. 26, no. 5, pp 1425 - 1433 Oct. 2019.",
+      "J7. Tuba Yilmaz, Banu Saçli, Gökhan Cansiz, Sulayman Joof, Cemanur Aydinalp, Mehmet Çayören, Ibrahim Akduman, Bülent Önal,“Microwave dielectric spectroscopy of renal calculi: A large scale study on dielectric properties from 500 MHz to 18 GHz,” IEEE Transactions on Dielectrics and Electrical Insulation, vol. 26, no. 5, pp. 1425 - 1433 Oct. 2019.",
     linkContent: "Author Version",
   },
   {
@@ -72,7 +113,7 @@ export default [
     link: "http://hdl.handle.net/11527/18055",
     title: "",
     content:
-      "J3. Banu Saçlı, Cemanur Aydınalp, Gökhan Cansız, Sulayman Joof, Tuba Yilmaz, Mehmet Çayören, Bülent Önal, Ibrahim Akduman,“Microwave dielectric property based classification of renal calculi: Application of a kNN algorithm,” Computers in Biology and Medicine, vol. 112, p 103366, Sept. 2019.",
+      "J8. Banu Saçlı, Cemanur Aydınalp, Gökhan Cansız, Sulayman Joof, Tuba Yilmaz, Mehmet Çayören, Bülent Önal, Ibrahim Akduman,“Microwave dielectric property based classification of renal calculi: Application of a kNN algorithm,” Computers in Biology and Medicine, vol. 112, pp. 103366, Sept. 2019.",
     linkContent: "Author Version",
   },
   {
@@ -80,44 +121,44 @@ export default [
     link: "https://www.mdpi.com/391744",
     title: "",
     content:
-      "J4. Tuba Yilmaz, Robert Foster,Yang Hao,“Radio-Frequency and Microwave Techniques for Non-Invasive Measurement of Blood Glucose Levels,” Diagnostics, vol. 9, no. 1, pp 6-40, Jan. 2019.",
+      "J9. Tuba Yilmaz, Robert Foster,Yang Hao,“Radio-Frequency and Microwave Techniques for Non-Invasive Measurement of Blood Glucose Levels,” Diagnostics, vol. 9, no. 1, pp. 6-40, Jan. 2019.",
     linkContent: "Full Text",
   },
   {
     type: "publications",
     title: "",
     content:
-      "J5. Tuba Yilmaz, Nazmul Hasan, Regan Zane, Zeljko Pantic, “Multi-Objective Optimization of Circular Magnetic Couplers for Wireless Power Transfer Applications,” IEEE Transactions on Magnetics, vol. 53, no. 8, pp 1-12, Aug. 2017.",
+      "J10. Tuba Yilmaz, Nazmul Hasan, Regan Zane, Zeljko Pantic, “Multi-Objective Optimization of Circular Magnetic Couplers for Wireless Power Transfer Applications,” IEEE Transactions on Magnetics, vol. 53, no. 8, pp. 1-12, Aug. 2017.",
   },
   {
     type: "publications",
     title: "",
     content:
-      "J6. Tuba Yilmaz, Mahmut Alp Kilic, Melike Erdogan, Mehmet Cayoren et al. “Machine Learning Aided Diagnosis of Hepatic Malignancies Through In-vivo Dielectric Measurements with Microwaves,” Physics in Medicine and Biology, vol. 61, no. 13, pp. 5089 - 5102, July 2016.",
+      "J11. Tuba Yilmaz, Mahmut Alp Kilic, Melike Erdogan, Mehmet Cayoren et al. “Machine Learning Aided Diagnosis of Hepatic Malignancies Through In-vivo Dielectric Measurements with Microwaves,” Physics in Medicine and Biology, vol. 61, no. 13, pp. 5089 - 5102, July 2016.",
   },
   {
     type: "publications",
     title: "",
     content:
-      "J7. Tuba Yilmaz, Robert Foster, Yang Hao, “Towards Accurate Dielectric Property Retrieval of Biological Tissues for Blood Glucose Monitoring,” IEEE Transactions on Microwave Theory and Techniques, vol.62, no.12, pp.3193- 3204, Dec. 2014.",
+      "J12. Tuba Yilmaz, Robert Foster, Yang Hao, “Towards Accurate Dielectric Property Retrieval of Biological Tissues for Blood Glucose Monitoring,” IEEE Transactions on Microwave Theory and Techniques, vol.62, no.12, pp.3193- 3204, Dec. 2014.",
   },
   {
     type: "publications",
     title: "",
     content:
-      "J8. Tuba Yilmaz, Robert Foster, Yang Hao, “Broadband Tissue Mimicking Phantoms and a Patch Resonator for Evaluating Noninvasive Monitoring of Blood Glucose Levels,” IEEE Transactions on Antennas and Propagation, vol.62, no.6, pp.3064-3075, June 2014.",
+      "J13. Tuba Yilmaz, Robert Foster, Yang Hao, “Broadband Tissue Mimicking Phantoms and a Patch Resonator for Evaluating Noninvasive Monitoring of Blood Glucose Levels,” IEEE Transactions on Antennas and Propagation, vol.62, no.6, pp.3064-3075, June 2014.",
   },
   {
     type: "publications",
     title: "",
     content:
-      "J9. Tuba Yilmaz, Robert Foster, Yang Hao, “Detecting Vital Signs with Wearable Wireless Sensors,” Sensors 2010, no. 12, pp. 10837-10862, 2010.",
+      "J14. Tuba Yilmaz, Robert Foster, Yang Hao, “Detecting Vital Signs with Wearable Wireless Sensors,” Sensors 2010, no. 12, pp. 10837-10862, 2010.",
   },
   {
     type: "publications",
     title: "",
     content:
-      "J10. Tuba Yilmaz, Tutku Karacolak, Erdem Topsakal, “Characterization and testing of a skin mimicking material for implantable antennas operating at ISM band (2.4 GHz-2.48 GHz),” IEEE Antennas and Wireless Propagation Letters, vol. 7, pp. 418-420, 2008.",
+      "J15. Tuba Yilmaz, Tutku Karacolak, Erdem Topsakal, “Characterization and testing of a skin mimicking material for implantable antennas operating at ISM band (2.4 GHz-2.48 GHz),” IEEE Antennas and Wireless Propagation Letters, vol. 7, pp. 418-420, 2008.",
   },
   {
     type: "publications",
