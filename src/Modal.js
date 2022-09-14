@@ -318,6 +318,10 @@ class ModalComponent extends React.Component {
                     İP 6: Empedans Uyumluluğunu İçin Kullanılacak Yapının
                     Tasarımı ve Gerçeklenmesi
                   </b>
+                  <p>
+                    - Bu is paketi kapsamında birçok malzeme araştırılmıştır. Araştırılan malzemelerin dielektrik özellikleri ölçülmüş sonrasında ise bu malzemeler  hem simülasyon ortamında hem de deneysel olarak test edilmiştir. Empedans uygunlaştırıcı malzeme olarak ayrı ayrı alt sistem  gereksinimlerine göre hipertermi sistemi için Triton X-100  ve görüntüleme sistemi için Gliserol uygun bulunmuştur.
+
+                  </p>
                 </li>
                 <li className="list-group-item">
                   {" "}
@@ -326,6 +330,10 @@ class ModalComponent extends React.Component {
                     Tasarımı ve Gerçeklenmesi Tümleştirme ve Deneysel Doğrulama
                     Çalışmaları
                   </b>
+                  <p>
+                    - Bu is paketi kapsamında öncelikle her iki alt sistemin tasarımı ve sonrasında tümleştirilmesi yapılmıştır. Her iki alt sistem öncelikle ayrı ayrı deneysel olarak test edilmiştir. Daha sonra ise sistemin tümleştirilmesi yapılarak  deneysel testler gerçekleştirilmiştir. Bu iş paketi kapsamında başarılı  bir şekilde ısıtma ve görüntüleme işlemlerinin deneysel olarak yapıldığı  gözlemlenmiştir.
+
+                  </p>
                 </li>
               </ul>
             </div>
