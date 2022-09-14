@@ -188,11 +188,27 @@ class ModalComponent extends React.Component {
                     {" "}
                     İP 1: Mikrodalga Hipertermi (MdH) Alt-Sisteminin Tasarımı ve
                     Gerçeklenmesi
-                  </b>
-                  <p>
-                    Bu iş paketine ilişkin çalışmalar anten genlik ve fazlarının
-                    optımızasyonunu içermekte çalışmalar halen devam etmektedir.{" "}
-                  </p>
+                    </b>{" "}
+                    <p>-Bu is paketi kapsaminda iki adet hipertermi aplikatörü (lineer ve silindirik) ele alınarak her iki sisteme ilişkin toplam 4 adet faz ve genlik optimizasyonu algoritması geliştirilmiştir. - Her iki aplikatör için mikrodalga arka devre ve uygun antenler tasarlanarak gerçeklenmiş ve fantom malzemeler ile test edilmiştir. -Bu çalışmalar sonucunda aşağıdaki yayınlar hazırlanmıştır,
+  .</p>
+  <p>
+  (J1) Altintas, Gulsah, Ibrahim Akduman, Aleksandar Janjic, and Tuba Yilmaz. "A Novel Approach on Microwave Hyperthermia." Diagnostics 11, no. 3 (2021): 493.
+  </p>
+  <a
+    href="https://doi.org/10.3390/diagnostics11030493"
+    className="btn btn-primary border"
+  >
+    Full Text
+  </a>
+  <p>
+  (J2) Altıntaş, Gülşah, Halimcan Yasar, Ibrahim Enes Uslu, Yusuf Demirel, Mehmet Nuri Akinci, Tuba Yilmaz, and Ibrahim Akduman. ‘ Antenna Excitation Optimization with Deep Learning for Microwave Breast Cancer Hyperthermia.’ Sensors 22, no. 17 (2022):6343.
+  </p>
+  <a
+    href=" https://doi.org/10.3390/s22176343"
+    className="btn btn-primary border"
+  >
+    Full Text
+  </a>
                 </li>
                 <li className="list-group-item">
                   {" "}
@@ -200,7 +216,30 @@ class ModalComponent extends React.Component {
                     İP 2: Mikrodalga Görüntüleme (MdG) Alt-Sisteminin Tasarımı
                     ve Gerçeklenmesi
                   </b>{" "}
-                  <p>Bu iş paketine ilişkin çalışmalar devam etmektedir.</p>
+                  <p> -	Bir önceki iş paketinde tasarlanmış olan iki adet hipertermi aplikatörüne uygun olarak lineer ve silindirik olmak üzere her iki sistem için niteliksel ve niceliksel görüntüleme algoritmaları geliştirilmiştir. Burada altı çizilmesi gereken en önemli nokta niceliksel algoritmaların literatürde kullanılamıyor olması nedeniyle meme dokusu görüntülemenin çoğunlukla nıteliksel algoritmalar ile yapılıyor olmasıdır. Proje kapsamında niceliksel bir algoritmanın problem özelinde çalıştığı bu iş paketi altında gösterilmiştir. Çıktıtya ilişkin yayınımız şu anda hakem izlemesi altındadır.
+- Görüntüleme algoritmasının yanı sıra düz problem çözülerek gerçek meme dokusunda üretilmiş veriler derin öğrenme ile işlenerek sıcaklık anomalilerinin belirlenmesi üzerine bir algoritma geliştirilmiştir.
+-	Görüntüleme sistemlerinde frekans ve anten sayısının analiz edilmesine yönelik yapay sinir ağı temelli bir algoritma geliştirilmiştir.
+-	Alt sistem tüm boyutlarıyla gerçeklenerek sistem deneyleri yapılmıştır.
+-	Bu çalışmalar sonucunda aşağıdaki yayınlar hazırlanmıştır,
+.</p>
+<p>
+  (J3) Hulusi Onal, Tuba Yilmaz, Mehmet Nuri Akinci, ‘A BIM-Based Algorithm for Real-Time Quantitative Monitoring of Temperature Distribution during Breast Hyperthermia Treatments,’ IEEE Access.  (Hakem değerlendirmesinde)
+</p>
+<a
+  href="https://doi.org/10.36227/techrxiv.20319474.v1"
+  className="btn btn-primary border"
+>
+  Full Text
+</a>
+<p>
+  (J4) Enes Girgin, Hulusi Önal, Tuba Yilmaz, Mehmet Nuri Akıncı, ‘A Real-time Breast Hyperthermia Monitoring Scheme Based on Processing of Microwave Scattering Parameters with Deep Learning.’ IEEE Transactions on Microwave Theory and Techniques. (Hakem değerlendirmesinde)
+</p>
+<a
+  href="https://doi.org/10.36227/techrxiv.17707106.v1"
+  className="btn btn-primary border"
+>
+  Full Text
+</a>
                 </li>
                 <li className="list-group-item">
                   {" "}
@@ -211,7 +250,7 @@ class ModalComponent extends React.Component {
                   <p>
                     Bu iş paketi kapsamında bow tie temelli yagi anten dizayn
                     edilmiştir. Anten 3.6 - 8 GHz arasında çalışmaktadır. Bu
-                    çalışmaya ilişkin çıktı haken değerlendirmesindedir.
+                    çalışmaya ilişkin çıktı hakem değerlendirmesindedir. - Ayrica Antipodal Vivaldi, corrugated Vivaldi gibi bir çok anten tasarlanmış, üretilmiş ve çeşitli sistem/alt-sistem gerçeklemelerinde kullanılmıştır.
                   </p>
                 </li>
                 <li className="list-group-item">
@@ -219,7 +258,16 @@ class ModalComponent extends React.Component {
                     İP 4: Sıcaklık Dağılımını Görüntüleme Yöntemlerinin
                     Geliştirilmesi
                   </b>
-                  <p>Bu iş paketine ilişkin çalışmalar devam etmektedir.</p>
+                  <p>Bu is paketi kapsaminda daha önce literaturde sunulmamis olan dielektrik özellik sıcaklık ilişkisi kurulmuştur. Bu ilişki doğrudan niceliksel görüntüleme problemine entegre edilmiştir. Bu iş paketi ile doğrudan sıcaklık haritalarının çıkarılması hedeflenmiş ve aşağıda verilen yayında görüleceği gibi sıcaklık haritaları elde edilmiştir. -	Bu çalışmanın sonucları aşağıdaki yayının bir parçası olarak yayınlamıştır,</p>
+                  <p>
+                    (J3) Hulusi Onal, Tuba Yilmaz, Mehmet Nuri Akinci, ‘A BIM-Based Algorithm for Real-Time Quantitative Monitoring of Temperature Distribution during Breast Hyperthermia Treatments,’ IEEE Access.  (Hakem değerlendirmesinde)
+                  </p>
+                  <a
+                    href="https://doi.org/10.36227/techrxiv.20319474.v1"
+                    className="btn btn-primary border"
+                  >
+                    Full Text
+                  </a>
                 </li>
                 <li className="list-group-item">
                   {" "}
@@ -228,37 +276,42 @@ class ModalComponent extends React.Component {
                     Gerçeklenmesi ve Ölçülmesi
                   </b>
                   <p>
-                    -Bu iş paketi doğrultusunda lliteratürde 'oil-in-gelatin
-                    dispersion' olarak bilinen ve temel olarak yağ, jelatin,
-                    deiyonize su, ve sürfaktan karışımının belli oranlarda yağ
-                    miktarının değiştirilmesi ile elde edilen fantom malzemeler
-                    yapılmıştır. - Kaynama sıcaklıkları yüksek olan
-                    kımyasalların dıelektrık özellikleri araştırılmıştır. -
-                    Ölçülen saf malzeme dielektrik geçirgenliğine dayanarak
-                    empırık formülasyonlarla karışım dielektrik
-                    geçirgenliklerinin modellenmesi üzerine çalışılmıştır. -
-                    Yapılan çalışmalar doğrultusunda yeni fantom malzemelerin
-                    yanı sıra sadeleştirilmiş 'oil-in-gelatin dispersion'
-                    malzemeleri kullanılarak karaciğer dokusunun ve
-                    anomalılerininin dielektrik özelliklerini mimikleyen fantom
-                    malzemeler üretilmiş ve bu malzemelerin dielektrik özellik
-                    ölçümünün yanı sıra analizi gerçekleştirilmiştir. -
-                    Karaciğer dokusunun yanı sıra meme dokuları da karakterize
-                    edilmiştir. - Bu çalışmalar sonucu elde edilen çıktı MDPI,
-                    Sensors dergisinde yayınlanmıştır.
+                    - Bu is paketi kapsamında ana amaç raf ömrü uzun olan, dielektrik özellikleri birkaç malzeme ile modellenebilen fantom malzemelerin üretimidir. Bu nedenle yapılan karışımların dielektrik özelliklerinin yüksek doğrulukta ölçümüne ihtiyaç vardır. Bu ihtiyaçlar göz önünde bulundurularak proje süresince aşağıdaki ana aktiviteler gerçekleştirilmiştir,
+-	Dielektrik özelliklerin yüksek doğrulukta ölçülebilmesi için algoritmaların geliştirilmesi,
+-	Çeşitli malzemelerin dielektrik özellikleri ölçülerek doku dielektrik özelliklerine benzeyen karakteristiklerin elde edilmesi,
+-	Polimer bazlı fantom malzemelerin yapılabilirliğinin araştırılması,
+-	Jelatin bazlı fantom malzemelerin yapımı, dielektrik özellik karakterizasyonu ve deneyler sırasında kullanımı.
+-	Yukarıda sıralanan çalışmalar sonucu aşağıdaki yayınlar hazırlanmıştır,
+
                   </p>
                   <p>
-                    J1. Tuba Yilmaz, “Multiclass Classification of Hepatic
-                    Anomalies with Dielectric Properties: From Phantom Materials
-                    to Rat Hepatic Tissues,” Sensors, vol. 20, no. 2, pp
-                    530-543, Jan. 2020.
+                    (J5) Cemanur Aydınalp, Sulayman Joof, Ismail Dilman, Ibrahim Akduman, and Tuba Yilmaz. 2022. "Characterization of Open-Ended Coaxial Probe Sensing Depth with Respect to Aperture Size for Dielectric Property Measurement of Heterogeneous Tissues" Sensors 22, no. 3: 760.
                   </p>
                   <a
-                    href="http://hdl.handle.net/11527/18059"
+                    href="https://doi.org/10.3390/s22030760"
                     className="btn btn-primary border"
                   >
                     Full Text
                   </a>
+                  <p>
+                    (J6) Cemanur Aydınalp, Sulayman Joof, Mehmet Nuri Akıncı, Ibrahim Akduman, and Tuba Yilmaz, "Microwave Dielectric Property Retrieval from Open-Ended Coaxial Probe Response with Deep Learning," in IEEE Access, 2022.
+                  </p>
+                  <a
+                    href="https://doi.org/10.1109/ACCESS.2021.3137033"
+                    className="btn btn-primary border"
+                  >
+                    Full Text
+                  </a>
+                  <p>
+                    (J7) Emre Onemli, Sulayman Joof, Cemanur Aydinalp, Nural Pastacı Özsobacı, Fatma Ateş Alkan, Nuray Kepil, Islem Rekik, Ibrahim Akduman, and Tuba Yilmaz. "Classification of rat mammary carcinoma with large scale in vivo microwave measurements." Scientific reports 12, no. 1 (2022): 1-11.
+                  </p>
+                  <a
+                    href="https://www.nature.com/articles/s41598-021-03884-7"
+                    className="btn btn-primary border"
+                  >
+                    Full Text
+                  </a>
+
                 </li>
                 <li className="list-group-item">
                   <b>
